@@ -6,3 +6,9 @@ active/*
 venv/
 
 hi.mp4
+
+.idea/
+
+stderr.log
+stdout.log
+start.bat
