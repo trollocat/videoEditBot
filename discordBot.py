@@ -383,7 +383,7 @@ async def parse_command(message):
                     check = lambda x: x),
                 Action(combiner, swap_arg("result"), (concat_filename := f"{generate_uuid_folder_from_msg(message.id)}.mp4"),
                     SILENCE = "./editor/SILENCE.mp3",
-                    print_info = False,
+                    print_info = True,
                     name = "Concat Videos",
                     fail_action = Action(
                         lambda n, e: messageQue.append(
